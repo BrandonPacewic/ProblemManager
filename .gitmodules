@@ -1,0 +1,9 @@
+# Copyright (c) Brandon Pacewic
+# SPDX-License-Identifier: MIT
+
+[submodule "DebugAndRun"]
+	path = DebugAndRun
+	url = https://github.com/BrandonPacewic/DebugAndRun.git
+[submodule "TestSamples"]
+	path = TestSamples
+	url = https://github.com/BrandonPacewic/TestSamples.git
