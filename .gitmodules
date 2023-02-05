@@ -4,6 +4,11 @@
 [submodule "DebugAndRun"]
 	path = DebugAndRun
 	url = https://github.com/BrandonPacewic/DebugAndRun.git
+
 [submodule "TestSamples"]
 	path = TestSamples
 	url = https://github.com/BrandonPacewic/TestSamples.git
+
+[submodule "TemplateGenerator"]
+	path = TemplateGenerator
+	url = https://github.com/BrandonPacewic/TemplateGenerator.git
