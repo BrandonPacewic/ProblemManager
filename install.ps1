@@ -1,6 +1,9 @@
 # Copyright (c) Brandon Pacewic
 # SPDX-License-Identifier: MIT
 
+Write-Host "Updating git submodules..."
+git submodule update --init --recursive
+
 $dir = Get-ChildItem -Path . -Recurse -Filter *.py | Select-Object -ExpandProperty DirectoryName
 
 $paths = [Environment]::GetEnvironmentVariable("PATH", "Machine")
